@@ -2,6 +2,10 @@
   font-size: 75px;
 }
 
+.btn-primary {
+  color: white;
+}
+
 .btn-outline-secondary {
   color: var(--bs-secondary);
 }
@@ -110,4 +114,22 @@
   .details-2 .decoration-star {
     top: 300px;
   }
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.font-italic {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.product-title {
+  color: #9097e1;
 }/*# sourceMappingURL=styles.css.map */
