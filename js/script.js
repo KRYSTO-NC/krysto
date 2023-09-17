@@ -46,3 +46,13 @@ function incrementStats() {
 document.addEventListener('DOMContentLoaded', userScroll)
 document.addEventListener('DOMContentLoaded', incrementStats)
 document.querySelector('#to-top').addEventListener('click', scrollToTop)
+
+function shareToFacebook(url) {
+  FB.ui(
+    {
+      method: 'share',
+      href: url,
+    },
+    function (response) {},
+  )
+}
