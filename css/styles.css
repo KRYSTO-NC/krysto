@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .xl-text {
   font-size: 75px;
 }
@@ -237,4 +238,39 @@
 }
 .img {
   object-fit: cover;
+}
+
+/* Styles personnalisés pour la section de recyclage */
+.recycle-section {
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px 0;
+}
+
+.recycle-section h2 {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.recycle-section img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.recycle-section p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.recycle-section h3 {
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.recycle-section button.btn {
+  margin-top: 30px;
 }
