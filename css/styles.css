@@ -235,3 +235,6 @@
     font-size: 1.6em;
   }
 }
+.img {
+  object-fit: cover;
+}

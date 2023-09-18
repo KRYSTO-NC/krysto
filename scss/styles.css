@@ -235,4 +235,8 @@
   .rule-section h2 {
     font-size: 1.6em;
   }
+}
+.img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=styles.css.map */
